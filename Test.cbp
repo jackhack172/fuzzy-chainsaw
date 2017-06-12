@@ -17,13 +17,8 @@
 				</Compiler>
 				<Linker>
 					<Add library="C:/Program Files (x86)/GnuWin32/lib/zlib.lib" />
-					<Add library="C:/Program Files (x86)/GnuWin32/lib/libz.a" />
-					<Add library="C:/Program Files (x86)/GnuWin32/lib/libz.dll.a" />
-					<Add library="C:/Program Files (x86)/GnuWin32/lib/zlib-bcc.lib" />
-					<Add library="C:/Program Files (x86)/GnuWin32/lib/libpng.dll.a" />
 					<Add library="C:/Program Files (x86)/GnuWin32/lib/libpng.lib" />
-					<Add library="C:/Program Files (x86)/GnuWin32/lib/libpng12.dll.a" />
-					<Add library="C:/Program Files (x86)/GnuWin32/lib/libpng-bcc.lib" />
+					<Add directory="C:/Program Files (x86)/GnuWin32" />
 				</Linker>
 			</Target>
 			<Target title="Release">

@@ -6,14 +6,14 @@
 class HitInfo {
 
 private:
-	bool hitObject;
+	bool hitObject = false;
 	Color color;
 
 public:
     HitInfo() {
 	}
 
-	double isHitObject() {
+	bool isHitObject() {
 		return hitObject;
 	}
 
